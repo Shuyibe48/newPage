@@ -5,7 +5,7 @@ import { ClipboardDocumentCheckIcon, Bars3Icon, XMarkIcon } from '@heroicons/rea
 
 const Header = () => {
     const [menuFold, setMenuFold] = useState(false)
-    console.log(menuFold);
+
     return (
 
         <div className=' bg-gray-100'>
@@ -16,7 +16,7 @@ const Header = () => {
                 </div>
 
                 <nav className='hidden lg:block'>
-                    <NavLink className='font-semibold text-2xl' to='/'>Home</NavLink>
+                    <NavLink className='font-semibold text-2xl ml-8' to='/'>Home</NavLink>
                     <NavLink className='font-semibold text-2xl ml-8' to='/books'>Books</NavLink>
                     <NavLink className='font-semibold text-2xl ml-8' to='/about'>About</NavLink>
                 </nav>
